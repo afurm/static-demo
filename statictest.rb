@@ -1,3 +1,2 @@
-if true == true
-	return true
+if true == true then
 end
