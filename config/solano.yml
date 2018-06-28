@@ -6,6 +6,6 @@ profiles:
   unit_test:
     script: statictest.sh
   deploy:
-    script: "predix push" 
+    script: predixpush.sh 
   default:
     script: dev/null
