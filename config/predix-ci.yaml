@@ -3,6 +3,8 @@
 pipeline:
   deploy
 steps:
+  unit_test:
+    script: statictest.sh
   deploy:
     script: "predix push" 
   default:
