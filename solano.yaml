@@ -1,0 +1,8 @@
+---
+pipeline:
+  deploy
+steps:
+  deploy:
+    script: "predix push" 
+  default:
+    script: dev/null
