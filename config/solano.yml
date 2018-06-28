@@ -1,8 +1,8 @@
-# /config/predix-ci.yml
+# /config/solano.yml
 ---
 pipeline:
   - deploy
-steps:
+profiles:
   unit_test:
     script: statictest.sh
   deploy:
