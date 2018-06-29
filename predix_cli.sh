@@ -1,2 +1,2 @@
 #!/bin/bash
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" && brew tap cloudfoundry/tap && brew install cf-cli
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/Linuxbrew/install/master/install.sh)" && brew tap cloudfoundry/tap && brew install cf-cli
