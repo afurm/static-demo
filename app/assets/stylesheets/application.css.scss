@@ -18,8 +18,12 @@
  @import "bootstrap";
  @import "main";
 
+:root {
+	--color: $COLOR
+}
+
  body {
- 	background: white;
+ 	background: var(--color, white);
  }
 
 
