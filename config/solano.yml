@@ -1,14 +1,11 @@
 # /config/solano.yml
 ---
 pipeline:
-  - install_cf
-  - unit_test
+- unit_test
 profiles:
-  install_cf:
-    script: ./predix_cli.sh
-  unit_test:
-    script: ./statictest.sh
-  deploy:
-    script: ./predixpush.sh 
-  default:
-    script: dev/null
+unit_test:
+script: ./statictest.sh
+deploy:
+script: ./predixpush.sh
+default:
+script: dev/null
