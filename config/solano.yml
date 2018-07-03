@@ -2,7 +2,7 @@
 ---
 pipeline:
   unit_test:
-      deploy
+    deploy
 steps:
   unit_test:
     script: ./statictest.sh
