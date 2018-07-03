@@ -1,5 +1,7 @@
 # /config/solano.yml
 ---
+environment:
+  COLOR: silver
 pipeline:
   unit_test:
     deploy
@@ -8,4 +10,3 @@ steps:
     script: ./statictest.sh
   deploy:
     script: ./deploy_application.sh
-
