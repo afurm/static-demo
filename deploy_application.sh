@@ -24,5 +24,5 @@ echo "----"
 
 set +x
 
-cf target -o predix_ci -s dev
+cf target -o predix_ci -s production_broker
 cf push --random-route
