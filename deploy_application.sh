@@ -24,5 +24,5 @@ echo "----"
 
 set +x
 
-cf target -o predix_ci -s production_broker
+cf target -o solanolabs -s dev
 cf push --random-route
