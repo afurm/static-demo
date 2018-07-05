@@ -24,5 +24,5 @@ echo "----"
 
 set +x
 
-cf target -o solanolabs -s dev
+cf target -o solanolabs -s prod
 cf push --random-route
