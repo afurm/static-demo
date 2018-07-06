@@ -25,8 +25,6 @@ fd.close
 curl_spaces = `cf curl "/v2/spaces" -X GET -H "Content-Type: application/x-www-form-urlencoded" -d "q=organization_guid:#{ENV['CF_ORG_GUID']}"`
 curl_org = `cf curl "/v2/organizations" -X GET -H "Content-Type: application/x-www-form-urlencoded" -d "q=space_guid:#{ENV['CF_SPACE_GUID']}"`
 
-puts curl_spaces
-puts curl_org
 
 # Now we can fetch org and space name
 spaces = JSON.parse(curl_spaces)
