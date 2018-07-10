@@ -9,7 +9,7 @@ steps:
   fetch:
     script: ./tarfile.sh
     output_artifacts:
-       artifact.tar
+      - artifact.tar
   unit_test:
     input_artifacts:
       - artifact.tar
