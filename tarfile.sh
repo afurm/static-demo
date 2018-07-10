@@ -4,4 +4,4 @@ echo "-------"
 echo "Archiving..."
 echo "-------"
 
-tar -cvf artifact.tar ./Desktop/static-demo
+tar -cvf artifact.tar static-demo
