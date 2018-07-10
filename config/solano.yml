@@ -6,7 +6,17 @@ pipeline:
   unit_test:
     deploy
 steps:
+  fetch:
+    script: ./tarfile.sh
+    output_artifacts:
+       artifact.tar
   unit_test:
+    input_artifacts:
+      - artifact.tar
     script: ./statictest.sh
+    output_artifacts:
+      - artifact.tar
   deploy:
+    input_artifacts:
+      - artifact.tar
     script: ./deploy_application.sh
