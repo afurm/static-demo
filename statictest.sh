@@ -1,6 +1,5 @@
 #!/bin/bash 
-ls
-cd ~
+
 tar -xvf artifact.tar && rm artifact.tar
 
 ruby statictest.rb
