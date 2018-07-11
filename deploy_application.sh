@@ -2,6 +2,10 @@
 
 export HOME=/root
 
+mkdir static-demo
+tar -xvf artifact.tar ./static-demo && rm artifact.tar
+cd static-demo
+
 echo "Running unit test"
 
 echo "----"
