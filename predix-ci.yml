@@ -2,16 +2,9 @@
 environment:
   COLOR: red
 pipeline:
-  fetch:
-    unit_test: deploy
+  unit_test: deploy
 profiles:
-  fetch:
-    script: ./tarfile.sh
-    output:
-      - artifact.tar
   unit_test:
-    input:
-      - artifact.tar
     script: ./statictest.sh
     output:
       - change_artifact.tar
