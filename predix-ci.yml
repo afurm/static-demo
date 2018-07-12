@@ -1,12 +1,10 @@
-# /config/solano.yml
 ---
 environment:
   COLOR: red
 pipeline:
   fetch:
-    unit_test:
-      deploy
-steps:
+    unit_test: deploy
+profiles:
   fetch:
     script: ./tarfile.sh
     output:
@@ -16,8 +14,8 @@ steps:
       - artifact.tar
     script: ./statictest.sh
     output:
-      - artifact.tar
+      - change_artifact.tar
   deploy:
     input:
-      - artifact.tar
+      - change_artifact.tar
     script: ./deploy_application.sh

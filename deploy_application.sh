@@ -3,12 +3,10 @@
 export HOME=/root
 
 cd ~
-
-tar -xvf artifact.tar 
-
-cd repos
-
-echo "Running unit test"
+ls
+mkdir static-demo
+cd static-demo
+tar -xvf change_artifact.tar 
 
 echo "----"
 echo "Installing CF CLI"
