@@ -1,6 +1,9 @@
 #!/bin/bash 
 
+ls
 export HOME=/root
+
+cd static-demo
 
 # Unit test that always passes.
 ruby statictest.rb
