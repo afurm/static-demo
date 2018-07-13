@@ -8,5 +8,5 @@ sed -i "s/COLOR_REPLACE_ME/${COLOR}/g" ./app/views/layouts/application.html.erb
 
 # Tarball 
 cd .. && ls -la 
-tar -cvf change_artifact.tar ./static-demo
+tar -cvf change_artifact.tar ./repos/static-demo
 
