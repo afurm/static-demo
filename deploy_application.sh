@@ -2,6 +2,10 @@
 
 export HOME=/root
 
+cd .. && ls -la
+
+
+: '
 mkdir static-demo-deploy
 tar -xvf change_artifact.tar 
 cd static-demo-deploy 
@@ -28,3 +32,4 @@ set +x
 
 cf target -o solanolabs -s prod
 cf push --random-route
+'
