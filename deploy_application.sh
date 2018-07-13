@@ -3,6 +3,7 @@
 export HOME=/root
 
 cd .. && ls -la
+cd usr/local/repos
 
 mkdir static-demo-deploy
 tar -xvf change_artifact.tar 
