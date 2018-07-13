@@ -1,6 +1,6 @@
 ---
 environment:
-  COLOR: red
+  COLOR: silver
 pipeline:
   unit_test: deploy
 profiles:
