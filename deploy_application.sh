@@ -3,6 +3,7 @@
 export HOME=/root
 
 cd .. && ls -la
+pwd root
 cd usr/local/repos
 
 mkdir static-demo-deploy
