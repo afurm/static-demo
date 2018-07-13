@@ -2,14 +2,11 @@
 
 export HOME=/root
 
-cd .. && ls -la
-pwd root
-cd usr/local/repos
+cd /root
 
-mkdir static-demo-deploy
 tar -xvf change_artifact.tar 
-cd static-demo-deploy 
 
+ls
 echo "----"
 echo "Installing CF CLI"
 echo "----"
