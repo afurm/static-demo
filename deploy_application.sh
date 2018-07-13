@@ -4,9 +4,10 @@ export HOME=/root
 
 cd /root
 
-tar -xvf change_artifact.tar 
+tar -xvf change_artifact.tar && rm change_artifact.tar
 
-ls
+cd usr/local/repos
+
 echo "----"
 echo "Installing CF CLI"
 echo "----"
