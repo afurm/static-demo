@@ -4,8 +4,6 @@ export HOME=/root
 
 cd .. && ls -la
 
-
-
 mkdir static-demo-deploy
 tar -xvf change_artifact.tar 
 cd static-demo-deploy 

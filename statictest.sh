@@ -7,5 +7,6 @@ ruby statictest.rb
 sed -i "s/COLOR_REPLACE_ME/${COLOR}/g" ./app/views/layouts/application.html.erb 
 
 # Tarball 
-cd .. && tar -cvf change_artifact.tar ./static-demo
+cd .. && ls -la 
+tar -cvf change_artifact.tar ./static-demo
 
