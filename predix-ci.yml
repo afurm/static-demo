@@ -1,6 +1,7 @@
 ---
 environment:
   COLOR: silver
+  BACKGROUND: url(/images/blue.jpeg)
 pipeline:
   unit_test: deploy
 profiles:
