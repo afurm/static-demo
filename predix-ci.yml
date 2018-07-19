@@ -1,6 +1,7 @@
 ---
 environment:
   COLOR: silver
+  JUMBO: <%= render 'partials/jumbotron' %>
 pipeline:
   unit_test: deploy
 profiles:
