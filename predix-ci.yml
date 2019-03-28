@@ -7,8 +7,8 @@ profiles:
   unit_test:
     script: ./statictest.sh
     output:
-      - change_artifact.tar
+      - change_artifact
   deploy:
     input:
-      - change_artifact.tar
+      - change_artifact
     script: ./deploy_application.sh
