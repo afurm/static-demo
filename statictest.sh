@@ -8,5 +8,5 @@ ruby statictest.rb
 # sed -i "s/Demo/$(date '+%m-%d-%Y')/g" ./app/views/layouts/application.html.erb
 
 # # Tarball
-# tar -cvf change_artifact.tar /usr/local/repos
+tar -cvf change_artifact.tar /usr/local/repos
 # cp change_artifact.tar /root
